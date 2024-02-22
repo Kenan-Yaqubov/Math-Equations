@@ -1,0 +1,32 @@
+body{
+    background-color: #12372A;
+    font-family: montserrat;
+}
+
+div{
+    background-color: #436850;
+    width: 250px;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div>a{
+    cursor: pointer;
+    text-align: left;
+    border-radius: 8px;
+    padding: 8px 18px;
+    margin: 15px 15px;
+    background-color: #ADBC9F;
+    color: #FBFADA;
+    display: block;
+    text-decoration: none;
+    transition: all 2s ease;
+}
+
+div>a:hover{
+    background-color: #FBFADA;
+    color: #ADBC9F;
+}
